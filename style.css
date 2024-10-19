@@ -1,0 +1,153 @@
+/* Archivo: styles.css */
+
+/* Reseteo de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para el cuerpo de la página */
+body {
+    background-image: url(fondo.jpg);
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #16a2ff;
+    color: #fff;
+    padding: 15px 0;
+    text-align:center;
+    margin-bottom: 50px;
+
+}
+
+/* Estilo de la navegación */
+
+
+/* Contenedor principal de contenido */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+/* Estilo de las secciones */
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    color: #3ea2ff;
+    margin-bottom: 10px;
+}
+
+.section h3 {
+    color: #32a0fa;
+    margin-bottom: 10px;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #16a2ff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 1px solid #fffcfc00;
+}
+
+/* Enlaces en el pie de página */
+footer a {
+    color: #003d99;
+    text-decoration: none;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color:#16a2ff;
+}
+
+nav ul li:hover > ul {
+    display:block;
+}
+
+
+
+ 
+ 
+
+
+nav ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    background-color:#16a2ff;
+    overflow: hidden;
+}
+
+
+nav li {
+    display: inline;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+    display: inline-block;
+    font-size: 22 px;
+}
+
+
+
+nav a:hover {
+    background-color:#5ebeff;
+}
+
+
+nav ul {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav a {
+    color: #ffffff;
+    border: 1px solid transparent;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+
+
+nav a:hover {
+    background-color: #5ebeff;
+    border-color: #fff;
+    
+}
